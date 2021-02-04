@@ -1,100 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- == BOX ICONS == -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!--==SWIPER CSS==-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!--==BOX ICONS==-->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <!--==CSS==-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <!-- == CSS == -->
-    <link rel="stylesheet" href="/assets/css/styles.css">
-
-    <title>STAROREWARS Fiatz</title>
+    <title>Portfolio Patiphan</title>
 </head>
+
 <body>
-    <!-- == SCROLL TOP ==-->
+    <!--==SCROLL TOP==-->
     <a href="#" class="scrolltop" id="scroll-top">
         <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
-    <!-- == HEADER ==-->
+
+    <!--==HEADER==-->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
-            <a href="#" class="nav__logo">Dev Fiatz</a>
+            <a href="#" class="nav__logo">DevMeFiatz</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link ">About</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link ">Skills</a></li>
-                    <li class="nav__item"><a href="#portfolio" class="nav__link ">Portfolio</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link ">Contact</a></li>
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">HOME</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">ABOUT</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#service" class="nav__link">SERVICE</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">PORTFOLIO</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">CONTACT</a>
+                    </li>
                 </ul>
             </div>
+
             <div class="nav__toggle" id="nav-toggle">
-                <i class="bx bx-menu"><box-icon name='menu'></box-icon></i>
+                <i class="bx bx-menu"></i>
             </div>
         </nav>
     </header>
+
     <main class="l-main">
-        <!-- == HOME == -->
+        <!--==HOME==-->
         <section class="home" id="home">
             <div class="home__container bd-container bd-grid">
                 <div class="home__data">
-                    <span class="home__greeting">
-                        Hello, My Name is
-                    </span>
-                    <h1 class="home__name">Fiatz TheDevsite</h1>
+                    <span class="home__greeting">Hello</span>
+                    <h1 class="home__name">Fiatz Patiphan Wannsuth</h1>
                     <span class="home__profession">Developer</span>
-                    <a dowload="#" href="assets/pdf/resume-renewal.pdf" class="button button-light">GET MY CV</a>
+                    <a download="#" href="assets/pdf/resume-renewal.pdf" class="button button-light">Download CV</a>
                 </div>
-
                 <div class="home__social">
-                    <a href="#" class="home__social-icon"><i class='bx bxl-facebook-circle' ></i></a>
-                    <a href="#" class="home__social-icon"><i class='bx bxl-instagram-alt' ></i></a>
-                    <a href="#" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="#" class="home__social-icon"><i class="bx bxl-facebook-square"></i></a>
+                    <a href="#" class="home__social-icon"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="home__social-icon"><i class="bx bxl-github"></i></a>
                 </div>
 
                 <div class="home__img">
-                    <img src="/assets/images/me.png" alt="">
+                    <img src="assets/images/me.png" alt="" />
                 </div>
             </div>
         </section>
-        <!-- == ABOUT == -->
+
+        <!--==ABOUT==-->
         <section class="about section bd-container" id="about">
             <span class="section-subtitle">My History</span>
-                <h2 class="section-title">ABOUT ME</h2>
+            <h2 class="section-title">About Me</h2>
 
-                <div class="about__container bd-grid">
-                    <div class="about__data bd-grid">
-                        <p class="about__description">
-                          <span>Hello, I'm <br></span> a new graduation with a degree in computer science. Faculty of Science Buriram Rajabhat University, Interested in Front-end, UX/UI, Developer. My project graduate's create game with UNITY3D name's "FIREBALL". I'm a creative, finding a new things and have to learn faster.
-                        </p>
-                        <div>
-                            <span class="about__number">01</span>
-                            <span class="about__achievement">Years off Experience</span>
+            <div class="about__container bd-grid">
+                <div class="about__data bd-grid">
+                    <p class="about__description">
+                        <span>Hello I am <br /></span>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                        eaque nesciunt ipsa corrupti ad porro natus vel cumque? Alias
+                        tempore quo cum? Impedit itaque aut mollitia ex doloribus error
+                        veniam.
+                    </p>
+
+                    <div>
+                        <span class="about__number">1</span>
+                        <span class="about__achivement">Year off experience</span>
+                    </div>
+                    <div>
+                        <span class="about__number">1</span>
+                        <span class="about__achivement">My project</span>
+                    </div>
+                    <div>
+                        <span class="about__number">1</span>
+                        <span class="about__achivement">Best work</span>
+                    </div>
+                </div>
+                <img src="assets/images/me.png" alt="" class="about__img" />
+            </div>
+        </section>
+
+        <!--==QUALIFICATION==-->
+        <section class="qualification section bd-container">
+            <span class="section-subtitle"> Experience and Education </span>
+            <h2 class="section-title">Qulification</h2>
+
+            <div class="qualification__container bd-grid">
+                <div class="qualification__content">
+                    <h2 class="qualification__title">
+                        <i class="bx bx-briefcase-alt qualification__title-icon"></i>
+                        Workexperience
+                    </h2>
+
+                    <div class="bd-grid">
+                        <div class="qualification__data">
+                            <h3 class="qualification__area">Junior Front-end Developer</h3>
+
+                            <div class="qualification__box">
+                                <span class="qualification__work">
+                                    <i class="bx bx-briefcase-alt qualification__icon"></i>
+                                    Workmotion Creative
+                                </span>
+
+                                <span class="qualification__work">
+                                    <i class="bx bx-calendar-alt qualification__icon"></i>
+                                    Dec 2018 - Apr 2019
+                                </span>
+                            </div>
                         </div>
-                        <div>
-                            <span class="about__number">01</span>
-                            <span class="about__achievement">Projects Completes</span>
+
+                        <div class="bd-grid">
+                            <div class="qualification__data">
+                                <h3 class="qualification__area">Graphic Designer</h3>
+
+                                <div class="qualification__box">
+                                    <span class="qualification__work">
+                                        <i class="bx bx-briefcase-alt qualification__icon"></i>
+                                        Bangkok-Advertising
+                                    </span>
+
+                                    <span class="qualification__work">
+                                        <i class="bx bx-calendar-alt qualification__icon"></i>
+                                        May 2019 - Dec 2020
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qualification__content">
+                            <h2 class="qualification__title">
+                                <i class="bx bx-book-bookmark qualification__title-icon"></i>
+                                Education
+                            </h2>
+
+                            <div class="bd-grid">
+                                <div class="qualification__data">
+                                    <h3 class="qualification__area">Computer Science</h3>
+
+                                    <div class="qualification__box">
+                                        <span class="qualification__work">
+                                            <i class="bx bx-book-alt qualification__icon"></i>
+                                            Buriram Rajabhat University
+                                        </span>
+
+                                        <span class="qualification__work">
+                                            <i class="bx bx-calendar-alt qualification__icon"></i>
+                                            Dec 2015 - Apr 2020
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="bd-grid">
+                                    <div class="qualification__data">
+                                        <h3 class="qualification__area">Math-Sci</h3>
+
+                                        <div class="qualification__box">
+                                            <span class="qualification__work">
+                                                <i class="bx bx-book-alt qualification__icon"></i>
+                                                Satuek School
+                                            </span>
+
+                                            <span class="qualification__work">
+                                                <i class="bx bx-calendar-alt qualification__icon"></i>
+                                                May 2009 - Dec 2014
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <img src="/assets/images/Space-bg.png" alt="" class="about__img">
+        <!--==SERVICES==-->
+        <section class="service section bd-container" id="service">
+            <span class="section-subtitle">What i offer</span>
+            <h2 class="section-title">Services</h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__data">
+                    <i class="bx bx-palette services__icon"></i>
+                    <h3 class="services__title">UX/UI Design</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                        possimus facilis quis libero, dignissimos eligendi sint fugit
+                        aliquid! Cum rem nam nisi recusandae molestias voluptatum dolores
+                        doloremque adipisci qui excepturi.
+                    </p>
+                    <a href="#" class="button">More</a>
                 </div>
-        </section>
-        <!-- == QUALIFICATION == -->
-        <section class="qualification section bd-container" id="qualification">
-            <span class="section-subtitle">Experience and Education</span>
-                <h2 class="section-title">Qualification</h2>
-                <div class="qualification__container bd-grid">
-                    
+                <div class="services__data">
+                    <i class="bx bx-laptop services__icon"></i>
+                    <h3 class="services__title">Web Development</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                        possimus facilis quis libero, dignissimos eligendi sint fugit
+                        aliquid! Cum rem nam nisi recusandae molestias voluptatum dolores
+                        doloremque adipisci qui excepturi.
+                    </p>
+                    <a href="#" class="button">More</a>
                 </div>
+                <div class="services__data">
+                    <i class="bx bx-pen services__icon"></i>
+                    <h3 class="services__title">Graphic Design</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                        possimus facilis quis libero, dignissimos eligendi sint fugit
+                        aliquid! Cum rem nam nisi recusandae molestias voluptatum dolores
+                        doloremque adipisci qui excepturi.
+                    </p>
+                    <a href="#" class="button">More</a>
+                </div>
+            </div>
         </section>
-        <!-- == SKILLS == -->
-        <!-- == PORTFOLIO == -->
+
+        <!--==PROJECT IN MIND==-->
+        <section class="project section bd-container">
+            <div class="project__container bd-grid">
+                <div class="project__data">
+                    <i class="bx bx-chat project__icon"></i>
+
+                    <div>
+                        <h2 class="project__title">Project in mind</h2>
+                        <p class="project__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
+                            fugit nisi veniam magni deserunt error ratione officia incidunt praesentium, quidem ab
+                            sapiente laboriosam ipsum natus? Sed reprehenderit eos ex nisi.</p>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button-white">Chat Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==PORTFOLIO==-->
+        <section class="portfolio section bd-container" id="portfolio">
+            <span class="section-subtitle">My Works</span>
+            <h2 class="section-title">Portfolio</h2>
+
+            <div class="portfolio__nav">
+                <span class="portfolio__item active-portfolio" data-filter="all">All</span>
+                <span class="portfolio__item" data-filter=".web">Web</span>
+                <span class="portfolio__item" data-filter=".ux">UX/UI</span>
+                <span class="portfolio__item" data-filter=".game">Game</span>
+            </div>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__content mix web">
+                    <a href="#"><img src="assets/images/Space-bg.png" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Web development</span>
+                        <a href="#">
+                            <h2 class="portfolio__title">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit tempore
+                                ducimus atque libero alias fuga placeat. Consequatur, sint tenetur, reiciendis facilis
+                                similique quo ut necessitatibus sapiente maxime quia numquam?
+                            </h2>
+                        </a>
+                        <a href="#" class="button button-link">Read More</a>
+                    </div>
+                </div>
+                <div class="portfolio__content mix ux">
+                    <a href="#"><img src="assets/images/Space-bg.png" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">UX/UI</span>
+                        <a href="#">
+                            <h2 class="portfolio__title">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit tempore
+                                ducimus atque libero alias fuga placeat. Consequatur, sint tenetur, reiciendis facilis
+                                similique quo ut necessitatibus sapiente maxime quia numquam?
+                            </h2>
+                        </a>
+                        <a href="#" class="button button-link">Read More</a>
+                    </div>
+                </div>
+                <div class="portfolio__content mix game">
+                    <a href="#"><img src="assets/images/Space-bg.png" alt="" class="portfolio__img"></a>
+                    <div class="portfolio__data">
+                        <span class="portfolio__subtitle">Game</span>
+                        <a href="#">
+                            <h2 class="portfolio__title">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos velit tempore
+                                ducimus atque libero alias fuga placeat. Consequatur, sint tenetur, reiciendis facilis
+                                similique quo ut necessitatibus sapiente maxime quia numquam?
+                            </h2>
+                        </a>
+                        <a href="#" class="button button-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==TESTIMONIAL==-->
+        <section class="testimonial section bd-container">
+            <span class="section-subtitle">Client</span>
+            <h2 class="section-title">Testimonial</h2>
+
+            <div class="testimonial__container swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__content swiper-slide">
+                        <img src="assets/images/me.png" alt="" class="testimonial__img">
+                        <h3 class="testimonial__title">Someone</h3>
+                        <span class="testimonial__client">Client</span>
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat fuga eius alias molestias necessitatibus, molestiae libero sapiente excepturi, tenetur porro, ipsam incidunt qui quos laborum? Commodi amet doloribus ex! Aut?</p>
+
+                    </div>
+                    <div class="testimonial__content swiper-slide">
+                        <img src="assets/images/me.png" alt="" class="testimonial__img">
+                        <h3 class="testimonial__title">Someone</h3>
+                        <span class="testimonial__client">Client</span>
+                        <p class="testimonial__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat fuga eius alias molestias necessitatibus, molestiae libero sapiente excepturi, tenetur porro, ipsam incidunt qui quos laborum? Commodi amet doloribus ex! Aut?</p>
+
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+        <!--==CONTACTME==-->
+        <section class="contact section bd-container" id="contact">
+            <span class="section-subtitle">For Projects</span>
+            <h2 class="section-title">Contact Me</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__content bd-grid">
+                    <div class="contact__box">
+                        <i class="bx bx-home contact__icon"></i>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__description">85 M.4 Sri-khod Chaturapatpiman Roi-et</span>
+                    </div>
+                    <div class="contact__box">
+                        <i class="bx bx-phone contact__icon"></i>
+                        <h3 class="contact__title">Phone</h3>
+                        <span class="contact__description">093-3297716</span>
+                    </div>
+                    <div class="contact__box">
+                        <i class="bx bx-envelope contact__icon"></i>
+                        <h3 class="contact__title">E-mail</h3>
+                        <span class="contact__description">patipan.wan@bru.ac.th</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
-    <!-- == MAIN JS ==-->
+
+    <!--==FOOTER==-->
+    <footer class="footer">
+        <div class="footer__container bd-container">
+            <h1 class="footer__title">Fiatz Dev</h1>
+            <p class="footer__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quia saepe, dolore hic ipsam, cumque expedita dolorem repellendus unde veniam magni id? Unde, neque sapiente! Dicta aperiam quos sit vitae!</p>
+
+            <div class="footer__social">
+                <a href="#" class="footer__link"><i class="bx bxl-facebook-square"></i></a>
+                <a href="#" class="footer__link"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="footer__link"><i class="bx bxl-github"></i></a>
+            </div>
+            <p class="footer__copy">&#169; 2021 Fiatz All right reserved</p>
+        </div>
+    </footer>
+
+    <!--==MIXITUP FILTER==-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--==SWIPER JS==-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==GSAP==-->
+
+    <!--==MAIN JS==-->
     <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
